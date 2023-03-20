@@ -1,0 +1,19 @@
+{
+  "name": "hospital-api",
+  "version": "1.0.0",
+  "description": "We’re going to design an API for the doctors of a Hospital which has been allocated by the\r govt for testing and quarantine + well being of COVID-19 patients\r - There can be 2 types of Users\r - Doctors\r - Patients\r - Doctors can log in\r - Each time a patient visits, the doctor will follow 2 steps\r - Register the patient in the app (using phone    number, if the patient already exists, just\r return the patient info in the API)\r - After the checkup, create a Report\r - Patient Report will have the following fields\r - Created by doctor\r - Status (patient status like:- fever , malaria etc):",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.2",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1"
+  }
+}
